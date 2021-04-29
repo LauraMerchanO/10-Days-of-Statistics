@@ -1,0 +1,5 @@
+def g(n,p):
+    return (1-p)**(n-1) *p
+p,q=map(int,input().split())
+n=int(input())
+print(round(g(n,float(p/q)),3))
